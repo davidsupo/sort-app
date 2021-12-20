@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    color: #233142;
+    text-transform: uppercase;
+}
+
+.sorteo-body {
+    width: 100%;
+    margin: 1em 2em;
+    max-width: 80%;
+}
+
+.participantes {
+    color: #f95959;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1em 0;
+}
+
+.lista-participantes {
+    color: #455d7a;
+    font-size: 17px;
+    padding: .5em 0;
+}
+
+span {
+    display: block;
+    color: #233142;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.cantidad-premios {
+    padding: 1em 0 .25em 0;
+    font-weight: bold;
+}
+
+button {
+    padding: .5em 1em;
+    color: #e3e3e3;
+    font-weight: bold;
+    background-color: #233142;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+textarea {
+    padding: .5em;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    padding: .25em .5em;
+}
+
+#winner-list, .ganador-sorteo {
+    font-size: 25px;
+    color: #f95959;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.footer {
+    background-color: #233142;
+    color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    font-size: 25px;
+}

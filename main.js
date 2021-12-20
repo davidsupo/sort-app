@@ -53,7 +53,7 @@ function emptyList() {
 function winnerList(items) {
     let lista = '';
     items.forEach(item => {
-        lista += `<p>${listaParticipantes[item]}</p>`;
+        lista += `<p>El ganador del sorteo es: ${listaParticipantes[item]}</p>`;
     });
     WINNER_DIV.innerHTML = lista;
 }

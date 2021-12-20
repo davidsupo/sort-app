@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP-SORTEOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>SORTEADOS</title>
 </head>
 <body>
-    <textarea name="list" id="list-area" cols="30" rows="10"></textarea>
-    <button onclick="sortear()">SORTEAR</button>
-    <input type="number" id="winner-total" value="1" min="1" placeholder="Cantidad de premios">
-    <div id="winner-list"></div>
-    <div id="empty-list"></div>
-    <div id="fake-list">
+    <h1>Sortee en Sorteados</h1>
+    <div class="sorteo-body">
+        <p class="participantes">Escribe los participantes del sorteo</p>
+        <p class="lista-participantes">Lista de participantes: </p>
+        <textarea name="list" id="list-area" cols="50" rows="15"></textarea>
+        <span>Debe tener como mínimo dos participantes</span>
+        <p class="cantidad-premios">Nª de premios</p>
+        <input type="number" id="winner-total" value="1" min="1" placeholder="Cantidad de premios">
+        <button onclick="sortear()">SORTEAR</button>
+        <div id="winner-list"></div>
+        <div id="empty-list"></div>
+        <div id="fake-list"></div>
+    </div>
+    <div class="footer">
+        <p>¡Gracias por usar nuestra página para sortear!</p>
+    </div>
     </div>
     <script src="./main.js"></script>
 </body>
